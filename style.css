@@ -1,0 +1,311 @@
+/*
+Theme Name: HJNDI
+Theme URI: https://hjndi.geracaoweb.com
+Author: Geração Web | Francisco Mat
+Author URI: https://geracaoweb.com
+Description: Tema desenvolvido para HJNDI - Hashtag Jundiaí em conjunto com Agência Carib Digital
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hjndi
+Tags: blog, categorias, hjndi, hashtag, gastronomia, moda, thumbnail
+*/
+
+@import url("fonts/fonts.css");
+@import url("fonts/fontawesome-all.css");
+
+.bg-cover {
+	background-size: cover;
+	color: white;
+	background-position: center center;
+	/*position: relative;*/
+	z-index: -2;
+}
+.bg-cover-full {
+	background-image: url('images/home-background.jpg');
+}
+.bg-cover-short {
+	background-image: url('images/home-background-short.jpg');
+}
+
+#top-menu-logo {
+	margin-top: -5px;
+}
+
+#bs4navbar-top-menu {
+	font-family: 'montserratbold';
+	font-size: 13px;
+}
+
+#bs4navbar-top-menu li {
+	padding: 0 5px;
+	border-left: 1px solid #FFF;
+}
+#bs4navbar-top-menu li a {
+	padding: 0 5px;
+	white-space: nowrap;
+}
+.card-container {
+	position: absolute !important;
+}
+.card-container2 {
+	margin-left:50%;
+}
+@media only screen and (max-width: 687px) {
+	.card-container {
+		position: relative !important;
+	}
+	.card-container2 {
+		margin-left: 0;
+	}
+}
+
+.card-post {
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	bottom: 0;
+	min-height: 110px;
+}
+.cat-card {
+	position: absolute;
+	z-index: 9;
+	font-size: 12px;
+}
+.two-col p {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count:    2; /* Firefox */
+	column-count:         2;
+  	-webkit-column-gap:   40px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap:      40px; /* Firefox */
+	column-gap:           40px;
+	/*column-rule-color: #ccc; /* Optional */
+	/*column-rule-style:solid; /* Optional */
+	/*column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+
+}
+.rpwe-li {
+	font-family: "montserratregular";
+	padding: 0 !important;
+	border: 1px solid #666 !important;
+	position: relative;
+}
+.rpwe-title {
+	padding: 10px 10px 5px 130px;
+	text-transform: uppercase;
+	line-height: 14px !important;
+}
+.rpwe-title a {
+	font-family: "montserratbold";
+	color: #000;
+
+}
+.rpwe-summary {
+	padding: 0 10px 5px 130px;
+	line-height: 12px;
+}
+.rpwe-li .more-link {
+	bottom: 10px;
+    color: #000;
+    font-family: "montserratbold";
+    left: 60%;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+}
+.rpwe-thumb {
+	border:0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+/**/
+.line-height40 {
+	line-height: 38px;
+}
+.line-height10 {
+	line-height: 10px;
+}
+.darks {
+	background: #000 !important;
+	border-bottom: 1px solid #000 !important;
+}
+.links-darks,.links-darks a {
+	color: #000 !important;
+}
+.links-white, .links-white a {
+	color: #FFF !important;
+}
+.bg-darkBLACK {
+	background: #000 !important;
+}
+.cat-title {
+	/*
+	position: absolute;
+	top: 35%;
+	left: 15%;
+	*/
+	position: absolute;
+	top:40%;
+	width: 220px;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+.cat-title-template {
+	text-align: center;
+	font-size: 80px;
+	line-height: 200px;
+	margin:0 auto;
+}
+.opacity50 {
+	opacity: 0.5;
+}
+.big-black {
+	background: #000;
+	text-align: center;
+	font-size: 20px;
+	color: #FFF;
+	width: 100%;
+	padding: 10px;
+}
+
+#footer-map {
+	background: url('images/footer-map.jpg');
+	height: 650px;
+}
+#form-on-map {
+	position: absolute;
+	left: 10%;
+    margin-top: 100px;
+}
+.styled-form input, .styled-form textarea {
+	font-family: "montserratregular";
+	color: #999;
+	font-size: 11px;
+	border:0;
+	border-bottom: 1px solid #DDD;
+	width: 100%;
+}
+.styled-form textarea {
+	height:80px;
+}
+.styled-form button {
+	background: transparent !important;
+	float: right;
+}
+/*SIDEBAR*/
+.custom-sidebar ul {
+	list-style-type: none;
+	padding:0;
+}
+.cat-item {
+	margin:3px 0;
+}
+.cat-item a {
+	font-family: "montserratbold";
+	text-transform: uppercase;
+	color: #313131;
+}
+/*RESPONSIVE YOUTUBE**/
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img, 
+.entry-content iframe, 
+.entry-content object, 
+.entry-content embed {
+        max-width: 100%;
+}
+/***/
+.rpwe-block ul{
+list-style: none !important;
+margin-left: 0 !important;
+padding-left: 0 !important;
+}
+
+.rpwe-block li{
+border: 1px solid #666;
+margin-bottom: 10px;
+padding-bottom: 10px;
+list-style-type: none;
+}
+.rpwe-block a{
+display: inline !important;
+text-decoration: none;
+}
+
+.rpwe-block h3{
+background: none !important;
+clear: none;
+margin-bottom: 0 !important;
+margin-top: 0 !important;
+font-weight: 400;
+font-size: 12px !important;
+line-height: 1.5em;
+}
+
+.rpwe-thumb{
+box-shadow: none !important;
+}
+
+.rpwe-summary{
+font-size: 12px;
+
+
+}
+
+.rpwe-time{
+color: #bbb;
+font-size: 11px;
+}
+
+.rpwe-comment{
+color: #bbb;
+font-size: 11px;
+padding-left: 5px;
+}
+
+.rpwe-alignleft{
+display: inline;
+float: left;
+}
+
+.rpwe-alignright{
+display: inline;
+float: right;
+}
+
+.rpwe-aligncenter{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rpwe-clearfix:before,
+.rpwe-clearfix:after{
+content: "";
+display: table !important;
+}
+
+.rpwe-clearfix:after{
+clear: both;
+}
+
+.rpwe-clearfix{
+zoom: 1;
+}
